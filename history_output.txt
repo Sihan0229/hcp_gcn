@@ -1,0 +1,85 @@
+    1  conda init
+    2  conda activate
+    3  root@autodl-container-7071118252-968037de:~/autodl-tmp# conda activate
+    4  CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+    5  To initialize your shell, run
+    6  Currently supported shells are:
+    7  See 'conda init --help' for more information and options.
+    8  IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+    9  conda --version
+   10  conda activate
+   11  conda init
+   12  source ~/.bashrc
+   13  conda --version
+   14  conda activate
+   15  /root/miniconda3/bin/conda init bash
+   16  source ~/.bashrc
+   17  conda --version
+   18  conda activate
+   19  /root/miniconda3/bin/conda init bash
+   20  vim ~/.bashrc
+   21  /root/miniconda3/bin/conda --version
+   22  echo $PATH | grep '/root/miniconda3/bin'
+   23  source ~/.bashrc
+   24  /root/miniconda3/bin/conda init bash
+   25  conda activate
+   26  /root/miniconda3/bin/conda activate <your-environment-name>
+   27  /root/miniconda3/bin/conda activate dhcp
+   28  conda info
+   29  conda activate -v
+   30  conda init --help
+   31  /root/miniconda3/bin/conda init bash
+   32  source ~/.bashrc
+   33  vim ~/.bashrc
+   34  source ~/.bashrc
+   35  conda activate
+   36  conda init
+   37  conda activate
+   38  source activate
+   39  conda deactivate
+   40  conda activate
+   41  conda create -n dhcp
+   42  conda activate dhcp
+   43  conda install pytorch=1.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
+   44  pip install tqdm scipy==1.10.1 nibabel==5.0.1 antspyx==0.3.8
+   45  pip install antspyx
+   46  cd dhcp-dl-neonatal-main
+   47  ls
+   48  nohup bash run.sh > output.log 2>&1 &
+   49  conda install nibabel
+   50  . run.sh
+   51  conda list | grep nibabel
+   52  conda info --envs
+   53  python -c "import nibabel"
+   54  . run.sh
+   55  which python
+   56  python -c "import nibabel"
+   57  pip install nibabel
+   58  . run.sh
+   59  pip install tqdm
+   60  . run.sh
+   61  pip install antspyx==0.4.2
+   62  . run.sh
+   63  pip install "numpy<2.0"
+   64  python -c "import numpy; print(numpy.__version__)"
+   65  . run.sh
+   66  nohup bash run.sh > output.log 2>&1 &
+   67  ps aux | grep run.sh
+   68  . run.sh
+   69  which wb_command
+   70  nano ~/.bashrc
+   71  vim ~/.bashrc
+   72  source ~/.bashrc
+   73  conda activate dhcp
+   74  which wb_command
+   75  vim ~/.bashrc
+   76  fg
+   77  which wb_command
+   78  ls /root/autodl-tmp/software/workbench/bin_linux64/wb_command
+   79  echo $PATH
+   80  export PATH=$PATH:/root/autodl-tmp/software/workbench/bin_linux64
+   81  which wb_command
+   82  . run.sh
+   83  nohup bash run.sh > output.log 2>&1 &
+   84  your_command | tee output.txt
+   85  history | tee history_output.txt

@@ -1,0 +1,586 @@
+nohup: ignoring input
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+ 10%|█         | 1/10 [00:32<04:56, 32.95s/it]
+ 20%|██        | 2/10 [01:15<05:08, 38.54s/it]
+ 30%|███       | 3/10 [01:57<04:42, 40.32s/it]========================================
+Start processing subject: sub-CC00050XX01_ses-7201
+Load T2 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 3.4754 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 6.6385 sec.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.5938 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9621755617589585
+Affine registration ends. Runtime: 5.9308 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 2.1044 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 3.0204 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1477mm
+Area distortion: 0.0325mm^2
+Spherical mapping (left) ends. Runtime: 0.6072 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (left) ends. Runtime: 2.1839 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.8266 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9773 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1461mm
+Area distortion: 0.0308mm^2
+Spherical mapping (right) ends. Runtime: 0.6114 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (right) ends. Runtime: 2.1583 sec.
+----------------------------------------
+Finished. Total runtime: 32.9506 sec.
+========================================
+========================================
+Start processing subject: sub-CC00051XX02_ses-7702
+Load T2 image ... Done.
+Load T1 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5815 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 4.9397 sec.
+Compute T1/T2 ratio ... Done.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.6064 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9546837303586562
+Affine registration ends. Runtime: 5.4533 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.8257 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 3.0174 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1238mm
+Area distortion: 0.0228mm^2
+Spherical mapping (left) ends. Runtime: 0.6099 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00051XX02_ses-7702/sub-CC00051XX02_ses-7702_hemi-left_myelinmap.shape.gii
+Done.
+Feature estimation (left) ends. Runtime: 8.3662 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.806 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 3.0024 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1264mm
+Area distortion: 0.0236mm^2
+Spherical mapping (right) ends. Runtime: 0.6102 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00051XX02_ses-7702/sub-CC00051XX02_ses-7702_hemi-right_myelinmap.shape.gii
+Done.
+Feature estimation (right) ends. Runtime: 8.5236 sec.
+----------------------------------------
+Finished. Total runtime: 42.4503 sec.
+========================================
+========================================
+Start processing subject: sub-CC00052XX03_ses-8300
+Load T2 image ... Done.
+Load T1 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5744 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 5.1371 sec.
+Compute T1/T2 ratio ... Done.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.6008 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9616126396502334
+Affine registration ends. Runtime: 5.6651 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.7889 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 2.9786 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1203mm
+Area distortion: 0.0226mm^2
+Spherical mapping (left) ends. Runtime: 0.6086 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00052XX03_ses-8300/sub-CC00052XX03_ses-8300_hemi-left_myelinmap.shape.gii
+Done.
+Feature estimation (left) ends. Runtime: 8.3951 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.7891 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9884 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1207mm
+Area distortion: 0.023mm^2
+Spherical mapping (right) ends. Runtime: 0.6016 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00052XX03_ses-8300/sub-CC00052XX03_ses-8300_hemi-right_myelinmap.shape.gii
+Done.
+Feature estimation (right) ends. Runtime: 8.3264 sec.
+----------------------------------------
+Finished. Total runtime: 42.4283 sec.
+========================================
+========================================
+Start processing subject: sub-CC00053XX04_ses-8607
+Load T2 image ... Done.
+Load T1 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5708 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 5.9586 sec.
+Compute T1/T2 ratio ... Done.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.5942 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9610186311703623
+Affine registration ends. Runtime: 5.6218 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.7925 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+
+ 40%|████      | 4/10 [02:42<04:12, 42.09s/it]
+ 50%|█████     | 5/10 [03:25<03:31, 42.38s/it]
+ 60%|██████    | 6/10 [04:08<02:50, 42.72s/it]Surface inflation (left) ends. Runtime: 2.9968 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1159mm
+Area distortion: 0.0208mm^2
+Spherical mapping (left) ends. Runtime: 0.6075 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00053XX04_ses-8607/sub-CC00053XX04_ses-8607_hemi-left_myelinmap.shape.gii
+Done.
+Feature estimation (left) ends. Runtime: 9.3241 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.7848 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9618 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1195mm
+Area distortion: 0.0214mm^2
+Spherical mapping (right) ends. Runtime: 0.6015 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00053XX04_ses-8607/sub-CC00053XX04_ses-8607_hemi-right_myelinmap.shape.gii
+Done.
+Feature estimation (right) ends. Runtime: 9.0448 sec.
+----------------------------------------
+Finished. Total runtime: 44.8111 sec.
+========================================
+========================================
+Start processing subject: sub-CC00054XX05_ses-8800
+Load T2 image ... Done.
+Load T1 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5694 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 5.5002 sec.
+Compute T1/T2 ratio ... Done.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.5934 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9636759193935078
+Affine registration ends. Runtime: 5.5882 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.7959 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 2.9828 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1282mm
+Area distortion: 0.0243mm^2
+Spherical mapping (left) ends. Runtime: 0.6109 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00054XX05_ses-8800/sub-CC00054XX05_ses-8800_hemi-left_myelinmap.shape.gii
+Done.
+Feature estimation (left) ends. Runtime: 8.3606 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.813 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9844 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1313mm
+Area distortion: 0.0236mm^2
+Spherical mapping (right) ends. Runtime: 0.6418 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00054XX05_ses-8800/sub-CC00054XX05_ses-8800_hemi-right_myelinmap.shape.gii
+Done.
+Feature estimation (right) ends. Runtime: 8.4789 sec.
+----------------------------------------
+Finished. Total runtime: 42.8921 sec.
+========================================
+========================================
+Start processing subject: sub-CC00055XX06_ses-9300
+Load T2 image ... Done.
+Load T1 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5513 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 6.1717 sec.
+Compute T1/T2 ratio ... Done.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.5937 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9602817687012078
+Affine registration ends. Runtime: 5.567 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.7863 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 2.9761 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1188mm
+Area distortion: 0.0215mm^2
+Spherical mapping (left) ends. Runtime: 0.595 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00055XX06_ses-9300/sub-CC00055XX06_ses-9300_hemi-left_myelinmap.shape.gii
+Done.
+Feature estimation (left) ends. Runtime: 8.3305 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.7751 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9664 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1202mm
+Area distortion: 0.0215mm^2
+Spherical mapping (right) ends. Runtime: 0.5979 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00055XX06_ses-9300/sub-CC00055XX06_ses-9300_hemi-right_myelinmap.shape.gii
+Done.
+Feature estimation (right) ends. Runtime: 8.5884 sec.
+----------------------------------------
+Finished. Total runtime: 43.3795 sec.
+========================================
+========================================
+Start processing subject: sub-CC00056XX07_ses-10700
+Load T2 image ... Done.
+Load T1 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5669 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 6.5046 sec.
+Compute T1/T2 ratio ... Done.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.5688 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9602016169101182
+Affine registration ends. Runtime: 5.2732 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.7802 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 2.9634 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1252mm
+Area distortion: 0.0232mm^2
+Spherical mapping (left) ends. Runtime: 0.597 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: 
+ 70%|███████   | 7/10 [04:51<02:08, 42.81s/it]
+ 80%|████████  | 8/10 [05:33<01:24, 42.47s/it]
+ 90%|█████████ | 9/10 [06:02<00:38, 38.07s/it]
+100%|██████████| 10/10 [06:29<00:00, 34.81s/it]
+100%|██████████| 10/10 [06:29<00:00, 38.96s/it]
+/root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00056XX07_ses-10700/sub-CC00056XX07_ses-10700_hemi-left_myelinmap.shape.gii
+Done.
+Feature estimation (left) ends. Runtime: 8.0878 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.7752 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9782 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.13mm
+Area distortion: 0.0241mm^2
+Spherical mapping (right) ends. Runtime: 0.5962 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00056XX07_ses-10700/sub-CC00056XX07_ses-10700_hemi-right_myelinmap.shape.gii
+Done.
+Feature estimation (right) ends. Runtime: 8.2893 sec.
+----------------------------------------
+Finished. Total runtime: 42.9838 sec.
+========================================
+========================================
+Start processing subject: sub-CC00057XX08_ses-11002
+Load T2 image ... Done.
+Load T1 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.565 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 5.0492 sec.
+Compute T1/T2 ratio ... Done.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.5894 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9586594205318021
+Affine registration ends. Runtime: 5.3727 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.777 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 3.0075 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1359mm
+Area distortion: 0.0278mm^2
+Spherical mapping (left) ends. Runtime: 0.5953 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00057XX08_ses-11002/sub-CC00057XX08_ses-11002_hemi-left_myelinmap.shape.gii
+Done.
+Feature estimation (left) ends. Runtime: 8.1031 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.7809 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9616 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1339mm
+Area distortion: 0.0253mm^2
+Spherical mapping (right) ends. Runtime: 0.5966 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00057XX08_ses-11002/sub-CC00057XX08_ses-11002_hemi-right_myelinmap.shape.gii
+Done.
+Feature estimation (right) ends. Runtime: 8.4248 sec.
+----------------------------------------
+Finished. Total runtime: 41.7551 sec.
+========================================
+========================================
+Start processing subject: sub-CC00058XX09_ses-11300
+Load T2 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5442 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 6.0672 sec.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.6031 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9605011879513471
+Affine registration ends. Runtime: 5.4861 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.8062 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 2.9704 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1274mm
+Area distortion: 0.0251mm^2
+Spherical mapping (left) ends. Runtime: 0.5898 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (left) ends. Runtime: 2.1511 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.7716 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9683 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1272mm
+Area distortion: 0.0244mm^2
+Spherical mapping (right) ends. Runtime: 0.5951 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (right) ends. Runtime: 2.1499 sec.
+----------------------------------------
+Finished. Total runtime: 28.3904 sec.
+========================================
+========================================
+Start processing subject: sub-CC00059XX10_ses-11900
+Load T2 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5274 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 5.5159 sec.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.5902 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9597198307816016
+Affine registration ends. Runtime: 5.1306 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.8236 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 2.9742 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1233mm
+Area distortion: 0.023mm^2
+Spherical mapping (left) ends. Runtime: 0.5993 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (left) ends. Runtime: 2.1229 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.7764 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9693 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1234mm
+Area distortion: 0.0235mm^2
+Spherical mapping (right) ends. Runtime: 0.5961 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (right) ends. Runtime: 2.1791 sec.
+----------------------------------------
+Finished. Total runtime: 27.5089 sec.
+========================================

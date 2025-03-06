@@ -1,0 +1,61 @@
+(dhcp) root@autodl-container-7071118252-968037de:~/autodl-tmp/dhcp-dl-neonatal-main# . run.sh
+  0%|                                                                      | 0/1 [00:00<?, ?it/s]========================================
+Start processing subject: sub-CC00051XX02_ses-7702
+Load T2 image ... Done.
+Load T1 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 3.5482 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 5.3739 sec.
+Compute T1/T2 ratio ... Done.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.6131 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9547017000054274
+Affine registration ends. Runtime: 6.1993 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 2.0463 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 2.9906 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1242mm
+Area distortion: 0.023mm^2
+Spherical mapping (left) ends. Runtime: 0.6803 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00051XX02_ses-7702/sub-CC00051XX02_ses-7702_hemi-left_myelinmap.shape.gii
+Done.
+Feature estimation (left) ends. Runtime: 8.4416 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.816 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 3.0003 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1264mm
+Area distortion: 0.0237mm^2
+Spherical mapping (right) ends. Runtime: 0.6602 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Saving Myelin Map to: /root/autodl-tmp/dhcp-dl-neonatal-main/results/sub-CC00051XX02_ses-7702/sub-CC00051XX02_ses-7702_hemi-right_myelinmap.shape.gii
+Done.
+Feature estimation (right) ends. Runtime: 8.8542 sec.
+----------------------------------------
+Finished. Total runtime: 47.5263 sec.
+========================================
+100%|██████████████████████████████████████████████████████████████| 1/1 [00:47<00:00, 47.53s/it]

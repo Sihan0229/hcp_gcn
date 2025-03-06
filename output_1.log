@@ -1,0 +1,55 @@
+nohup: ignoring input
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:33<00:00, 33.33s/it]100%|██████████| 1/1 [00:33<00:00, 33.33s/it]
+========================================
+Start processing subject: sub-CC00050XX01_ses-7201
+Load T2 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 3.4052 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 6.7044 sec.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.6005 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9621127207730588
+Affine registration ends. Runtime: 6.4959 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 2.0443 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 3.0408 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.148mm
+Area distortion: 0.0328mm^2
+Spherical mapping (left) ends. Runtime: 0.6213 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (left) ends. Runtime: 2.1656 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.8239 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9589 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.146mm
+Area distortion: 0.0308mm^2
+Spherical mapping (right) ends. Runtime: 0.606 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (right) ends. Runtime: 2.0763 sec.
+----------------------------------------
+Finished. Total runtime: 33.3265 sec.
+========================================
