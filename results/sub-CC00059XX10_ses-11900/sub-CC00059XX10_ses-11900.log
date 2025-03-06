@@ -1,0 +1,53 @@
+========================================
+Start processing subject: sub-CC00059XX10_ses-11900
+Load T2 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5274 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 5.5159 sec.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.5902 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9597198307816016
+Affine registration ends. Runtime: 5.1306 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.8236 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 2.9742 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1233mm
+Area distortion: 0.023mm^2
+Spherical mapping (left) ends. Runtime: 0.5993 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (left) ends. Runtime: 2.1229 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.7764 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9693 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.1234mm
+Area distortion: 0.0235mm^2
+Spherical mapping (right) ends. Runtime: 0.5961 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Feature estimation (right) ends. Runtime: 2.1791 sec.
+----------------------------------------
+Finished. Total runtime: 27.5089 sec.
+========================================

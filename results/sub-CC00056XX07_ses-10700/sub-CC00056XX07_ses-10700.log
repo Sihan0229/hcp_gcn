@@ -1,0 +1,57 @@
+========================================
+Start processing subject: sub-CC00056XX07_ses-10700
+Load T2 image ... Done.
+Load T1 image ... Done.
+----------------------------------------
+Brain extraction starts ...
+Brain extraction ends. Runtime: 0.5669 sec.
+----------------------------------------
+Bias field correction starts ...
+T2 bias field correction ends. Runtime: 6.5046 sec.
+Compute T1/T2 ratio ... Done.
+----------------------------------------
+Cortical ribbon segmentation starts ...
+Cortical ribbon segmentation ends. Runtime: 0.5688 sec.
+----------------------------------------
+Affine registration starts ...
+Dice after registration: 0.9602016169101182
+Affine registration ends. Runtime: 5.2732 sec.
+----------------------------------------
+Surface reconstruction (left) starts ...
+Surface reconstruction (left) ends. Runtime: 1.7802 sec.
+----------------------------------------
+Surface inflation (left) starts ...
+Surface inflation (left) ends. Runtime: 2.9634 sec.
+----------------------------------------
+Spherical mapping (left) starts ...
+Edge distortion: 0.1252mm
+Area distortion: 0.0232mm^2
+Spherical mapping (left) ends. Runtime: 0.597 sec.
+----------------------------------------
+Feature estimation (left) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Done.
+Feature estimation (left) ends. Runtime: 8.0878 sec.
+----------------------------------------
+Surface reconstruction (right) starts ...
+Surface reconstruction (right) ends. Runtime: 1.7752 sec.
+----------------------------------------
+Surface inflation (right) starts ...
+Surface inflation (right) ends. Runtime: 2.9782 sec.
+----------------------------------------
+Spherical mapping (right) starts ...
+Edge distortion: 0.13mm
+Area distortion: 0.0241mm^2
+Spherical mapping (right) ends. Runtime: 0.5962 sec.
+----------------------------------------
+Feature estimation (right) starts ...
+Estimate cortical thickness ... Done.
+Estimate curvature ... Done.
+Estimate sulcal depth ... Done.
+Estimate myelin map ... Done.
+Feature estimation (right) ends. Runtime: 8.2893 sec.
+----------------------------------------
+Finished. Total runtime: 42.9838 sec.
+========================================
