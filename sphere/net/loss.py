@@ -10,7 +10,7 @@ def distortion(metric_sphere, metric_surf):
     Inputs:
     - metric_sphere: the metric of the (prediced) sphere, (1,|V|) torch.Tensor
     - metric_surf: the metric of the reference WM surface, (1,|V|) torch.Tensor
-    
+    - 如果球面和 WM 表面度量在尺度上不同，我们希望找到一个最优的𝛽,使得整体误差最小。
     Returns:
     - distort: the metric distortion (RMSD), torch.float
     """
