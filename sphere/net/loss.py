@@ -5,7 +5,7 @@ from utils.mesh import face_area
 
 def distortion(metric_sphere, metric_surf):
     """
-    Compute metric distortion.
+    Compute metric distortion. (area or edge)
 
     Inputs:
     - metric_sphere: the metric of the (prediced) sphere, (1,|V|) torch.Tensor
