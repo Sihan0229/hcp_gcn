@@ -92,3 +92,39 @@ def hausdorff_distance(pc1, pc2):
     min_dist1 = dist_matrix.min(dim=1)[0]  # pc1 到 pc2 的最近点距离
     min_dist2 = dist_matrix.min(dim=0)[0]  # pc2 到 pc1 的最近点距离
     return torch.max(torch.max(min_dist1), torch.max(min_dist2))
+
+def combined_loss(vert_sphere, vert_surf, edge, face, lambda_cd=1.0, lambda_hd=0.1, lambda_edge=1.0, lambda_area=1.0):
+    """
+    Compute the combined loss function.
+
+    Inputs:
+    - vert_sphere: (1, |V|, 3) torch.Tensor, predicted sphere vertices
+    - vert_surf: (1, |V|, 3) torch.Tensor, reference WM surface vertices
+    - edge: (2, |E|) torch.LongTensor, edge list
+    - face: (1, |F|, 3) torch.LongTensor, face list
+    - lambda_cd, lambda_hd, lambda_edge, lambda_area: weighting factors
+
+    Returns:
+    - total_loss: torch.float, combined loss
+    """
+    # Remove batch dimension
+    vert_sphere = vert_sphere.squeeze(0)
+    vert_surf = vert_surf.squeeze(0)
+
+    # Compute Chamfer Distance
+    cd_loss = chamfer_distance(vert_sphere, vert_surf)
+
+    # Compute Hausdorff Distance
+    hd_loss = hausdorff_distance(vert_sphere, vert_surf)
+
+    # Compute Edge Distortion
+    edge_loss = edge_distortion(vert_sphere, vert_surf, edge)
+
+    # Compute Area Distortion
+    area_loss = area_distortion(vert_sphere, vert_surf, face)
+
+    # Weighted sum of losses
+    total_loss = (lambda_cd * cd_loss + lambda_hd * hd_loss +
+                  lambda_edge * edge_loss + lambda_area * area_loss)
+
+    return total_loss
