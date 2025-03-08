@@ -60,3 +60,20 @@ def area_distortion(vert_sphere, vert_surf, face):
     area_surf = face_area(vert_surf, face)
     return distortion(area_sphere, area_surf)
 
+def chamfer_distance(pc1, pc2):
+    """
+    Compute Chamfer Distance between two point clouds.
+
+    Inputs:
+    - pc1: (N, 3) torch.Tensor, predicted points
+    - pc2: (M, 3) torch.Tensor, reference points
+    
+    Returns:
+    - chamfer_dist: Chamfer distance, torch.float
+    """
+    dist_matrix = torch.cdist(pc1, pc2)  # 计算点对之间的欧式距离矩阵
+    min_dist1 = dist_matrix.min(dim=1)[0]  # pc1 到 pc2 的最近点距离
+    min_dist2 = dist_matrix.min(dim=0)[0]  # pc2 到 pc1 的最近点距离
+    return min_dist1.mean() + min_dist2.mean()
+
+
