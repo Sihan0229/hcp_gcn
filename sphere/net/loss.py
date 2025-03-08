@@ -77,3 +77,18 @@ def chamfer_distance(pc1, pc2):
     return min_dist1.mean() + min_dist2.mean()
 
 
+def hausdorff_distance(pc1, pc2):
+    """
+    Compute Hausdorff Distance between two point clouds.
+
+    Inputs:
+    - pc1: (N, 3) torch.Tensor, predicted points
+    - pc2: (M, 3) torch.Tensor, reference points
+    
+    Returns:
+    - hausdorff_dist: Hausdorff distance, torch.float
+    """
+    dist_matrix = torch.cdist(pc1, pc2)
+    min_dist1 = dist_matrix.min(dim=1)[0]  # pc1 到 pc2 的最近点距离
+    min_dist2 = dist_matrix.min(dim=0)[0]  # pc2 到 pc1 的最近点距离
+    return torch.max(torch.max(min_dist1), torch.max(min_dist2))
