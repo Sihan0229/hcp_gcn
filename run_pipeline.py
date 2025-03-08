@@ -20,7 +20,10 @@ from sphere.net.sunet import SphereDeform
 from sphere.net.utils import get_neighs_order
 from sphere.net.loss import (
     edge_distortion,
-    area_distortion)
+    area_distortion,
+    combined_loss,
+    hausdorff_distance,
+    chamfer_distance)
 
 from utils.mesh import (
     apply_affine_mat,
